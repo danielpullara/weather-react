@@ -8,7 +8,7 @@ function App() {
 
   let currentWeather = async (lat, lon) => {
     const api = "6a881f9013566155ac46834f4a78db79"
-    let url = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${api}&units=metric`
+    let url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${api}&units=metric`
     let data = await fetch(url);
     let result = await data.json();
 
