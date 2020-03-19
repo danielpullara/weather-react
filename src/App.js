@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-// this is a test
 
 function App() {
  let [weather, setWeather]=useState(null);
